@@ -1,6 +1,6 @@
 @font-face {
     font-family: Sample1;
-    src:url(font/Sample1.ttf);
+    src:url(/Web-Build-5/font/Sample1.ttf);
 }
 
 @font-face {
@@ -16,16 +16,6 @@
 @font-face {
     font-family: Sample4;
     src: url(font/Sample4.ttf);
-}
-
-@font-face {
-    font-family: Sample5;
-    src: url(font/Sample5.ttf);
-}
-
-@font-face {
-    font-family: Sample6;
-    src: url(font/Sample6.ttf);
 }
 
 nav {
@@ -68,7 +58,6 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    font-family: Sample2;
 }
 
 .name {
@@ -107,7 +96,6 @@ body {
     'education educationtime'
     'certificates   empty' 
     'skills    empty';
-    font-family: Sample4;
 }
 
 .contact {
@@ -159,7 +147,7 @@ body {
     text-align: start;
     height: 200px;
     width: 400px;
-    padding: 0.5rem; 
+    padding: 5px; 
     flex-grow: 1; 
     font-size: 20px; 
     font-family: 'Sample1';
@@ -170,7 +158,8 @@ body {
     height: 367px;
     width: 210px;
     margin: 10px;
-    padding: 0.5rem;  
+    padding: 5px;
+    flex-grow: 35%; 
     font-size: 20px;
     font-family: 'Sample2';
 }
@@ -180,7 +169,7 @@ body {
     width: 400px;
     height: 400px;
     margin: 10px;
-    padding: 0.5rem;  
+    padding: 5px; 
     font-size: 20px;
     font-family: 'Sample3';  
 }
@@ -190,7 +179,7 @@ body {
     width: 250px;
     height: 250px;
     margin: 10px;
-    padding: 0.5rem;  
+    padding: 5px; 
     font-size: 20px;
     font-family: 'Sample4';  
 }
@@ -200,7 +189,7 @@ body {
     width: 250px;
     height: 250px;
     margin: 10px;
-    padding: 0.5rem;  
+    padding: 5px; 
     font-size: 20px;
     font-family: 'Sample5';  
 }
@@ -208,65 +197,82 @@ body {
 .sample6 {
     text-align: center;
     margin: 10px;
-    padding: 0.5rem; 
+    padding: 5px;
     flex-grow: 1;  
     font-size: 20px;
     font-family: 'Sample6'; 
 }
 /* Web Sample 2 */
 
+.title1 .Web-Sample-1 {
+    list-style-type: none;
+}
+
+.title2 .Web-Sample-1 {
+    list-style-type: none;
+}
+
+.title3 .Web-Sample-1 {
+    list-style-type: none;
+}
+
+.title4 .Web-Sample-1 {
+    list-style-type: none;
+}
+
+.title5 .Web-Sample-1 {
+    list-style-type: none;
+}
+
+.title6 .Web-Sample-1 {
+    list-style-type: none;
+}
+
 .Web-Sample-1 {
     display: flex;
-    font-family: Sample4;
-    padding: 1.5rem;
+    max-width: 1027px;
+    max-height: 408px;
 }
 
 .Web-Sample-2 {
     display: flex;
-    font-family: Sample4;
-    padding: 1.5rem;
+    
 }
 
 
 .Web-Sample-3 {
     display: flex;
-    font-family: Sample4;
-    padding: 1.5rem;
+    
 }
 
 .Web-Sample-4 {
     display: flex;
-    font-family: Sample4;
-    padding: 1.5rem;
+    
 }
 
 .Web-Sample-5 {
     display: flex;
-    font-family: Sample4;
-    padding: 1.5rem;
+    
 }
 
 .Web-Sample-6 {
     display: flex;
-    font-family: Sample4;
-    padding: 1.5rem;
+    
 }
 
 
 @media screen and (max-width: 768px){
 
-
-    /* home styles */
     .flex-container-home {
         display: flex;
     }   
 
-
-    /* resume styles */
     .grid-container-resume {
         display: grid;
-        grid-template-columns: 350px 350px;
-        grid-template-rows: 16% 16% 16% 16% 16% 16%;
+        min-height: 400px;
+        min-width: 300px;
+        grid-template-columns: 400px 400px 400px;
+        grid-template-rows: 16% 16% 16% 16% 16% 16% ;
         font-size: 18px;
         gap: 20px;
         grid-template-areas: 
@@ -277,98 +283,14 @@ body {
         'skills    empty';
     }
 
-
-    /* web sample 1 */
-
-    .sample1 {
-        text-align: start;
-        margin: 5px;
-        padding: 1rem; 
-        font-size: 20px; 
-        font-family: 'Sample1';
-    }
-    
-    .sample2 {
-        text-align: center;
-        margin: 5px;
-        padding: 1rem;  
-        font-size: 20px;
-        font-family: 'Sample2';
-    }
-    
-    .sample3 {
-        text-align: center;
-        margin: 5px;
-        padding: 1rem;  
-        font-size: 20px;
-        font-family: 'Sample3';  
-    }
-    
-    .sample4 {
-        text-align: center;
-        margin: 10px;
-        padding: 1rem;  
-        font-size: 20px;
-        font-family: 'Sample4';  
-    }
-    
-    .sample5 {
-        text-align: center;
-        margin: 5px;
-        padding: 1rem;  
-        font-size: 20px;
-        font-family: 'Sample5';  
-    }
-    
-    .sample6 {
-        text-align: center;
-        margin: 5px;
-        padding: 1rem;  
-        font-size: 20px;
-        font-family: 'Sample6'; 
-    }
-
-    /* web sample 2 */
-    .flex-container-other-samples {
+    .flex-container-3 {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        
     }
 
-    .Web-Sample-1 {
-        display: flex;
-        font-family: Sample4;
-        padding: 2.5rem;
-    }
+    .flex-container-4 {
 
-    .Web-Sample-2 {
-        display: flex;
-        font-family: Sample4;
-        padding: 2.5rem;
-    }
-
-
-    .Web-Sample-3 {
-        display: flex;
-        font-family: Sample4;
-        padding: 2.5rem;
-    }
-
-    .Web-Sample-4 {
-        display: flex;
-        font-family: Sample4;
-        padding: 2.5rem;
-    }
-
-    .Web-Sample-5 {
-        display: flex;
-        font-family: Sample4;
-        padding: 2.5rem;
-    }
-
-    .Web-Sample-6 {
-        display: flex;
-        font-family: Sample4;
-        padding: 2.5rem;
     }
 }
